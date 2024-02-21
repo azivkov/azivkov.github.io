@@ -4,3 +4,6 @@
 [submodule "interiart"]
 	path = interiart
 	url = https://github.com/azivkov/interiart.git
+[submodule "weatherapp"]
+	path = weatherapp
+	url = https://github.com/azivkov/weatherapp.git
