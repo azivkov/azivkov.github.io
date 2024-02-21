@@ -1,6 +1,0 @@
-[submodule "izrada-web-stranice-web-shop-azivkov"]
-	path = izrada-web-stranice-web-shop-azivkov
-	url = https://github.com/Trokut-Neet-Akademija-4-0/izrada-web-stranice-web-shop-azivkov.git
-[submodule "azivkov.github.io"]
-	path = azivkov.github.io
-	url = https://github.com/azivkov/azivkov.github.io.git
