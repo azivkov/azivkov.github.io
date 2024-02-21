@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'canela';
+    src: url(fonts/CanelaText-Regular-Trial.otf);
+}
+
+@font-face {
+    font-family: 'museo';
+    src: url(fonts/MuseoSans_500.otf);
+}
+
+body {
+    margin: 0 0;
+    height: 100vh;
+    background-color: #eee4d5;
+    color: #5e4a3c;
+}
+
+h1 {
+    font-family: 'canela';
+}
+
+.row {
+    font-family: 'museo';
+}
+
+hr.divider {
+    border: 1px solid #2e241d;
+}
+
+img {
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+img:hover {
+    filter: brightness(80%);
+}
+
+a {
+    color: #5e4a3c;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.card:hover a {
+    color: #b47344;
+}
+
+.card-body {
+    background-color: #fff6e3;
+}
