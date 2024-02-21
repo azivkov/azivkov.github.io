@@ -7,3 +7,6 @@
 [submodule "weatherapp"]
 	path = weatherapp
 	url = https://github.com/azivkov/weatherapp.git
+[submodule "todolist"]
+	path = todolist
+	url = https://github.com/azivkov/todolist.git
