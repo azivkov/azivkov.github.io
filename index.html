@@ -11,10 +11,12 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <link href="style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/wow.js"></script>
 </head>
 
 <body>
@@ -46,7 +48,7 @@
 
     <div class="about" id="omeni">
         <div class="container py-5">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-md-6 col-12 d-flex pe-4">
                     <img src="images/femalehiker.jpg" class="img-fluid">
                 </div>
@@ -75,7 +77,7 @@
         <div class="cybershop py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-12 text-end">
+                    <div class="col-md-6 col-12 text-end wow fadeInLeft">
                         <h3>CyberShop - Electronics Webstore</h3>
                         <hr>
                         <p>Primjer webshopa usmjerenog na prodaju stolnih računala, laptopa,
@@ -87,7 +89,7 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank"><img
-                                src="images/webstore.jpg" class="img-fluid shadow"></a>
+                                src="images/webstore.jpg" class="img-fluid shadow wow fadeInRight"></a>
                     </div>
                 </div>
             </div>
@@ -98,10 +100,10 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <a href="interiart/index.html" target="_blank"><img src="images/interiart.jpg"
-                                class="img-fluid shadow"></a>
+                                class="img-fluid shadow wow fadeInLeft"></a>
                     </div>
 
-                    <div class="col-md-6 col-12 text-start">
+                    <div class="col-md-6 col-12 text-start wow fadeInRight">
                         <h3>InteriArt - Interior Design Website</h3>
                         <hr>
                         <p>Internetska stranica posvećena izmišljenoj tvrtci za dizajn interijera. Fokus je na estetici,
@@ -117,7 +119,7 @@
         <div class="todolist py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-12 text-end">
+                    <div class="col-md-6 col-12 text-end wow fadeInLeft">
                         <h3>Moja to-do lista</h3>
                         <hr>
                         <p>To-do lista u koju se mogu slobodno unositi i brisati stavke. Stavke ostaju zapamćene i na
@@ -128,7 +130,7 @@
                     </div>
                     <div class="col-md-6 col-12">
                         <a href="todolist/index.html" target="_blank"><img src="images/todolist.jpg"
-                        class="img-fluid shadow"></a>
+                        class="img-fluid shadow wow fadeInRight"></a>
                     </div>
                 </div>
             </div>
@@ -139,10 +141,10 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <a href="weatherapp/index.html" target="_blank"><img src="images/weatherapp.jpg"
-                        class="img-fluid shadow"></a>
+                        class="img-fluid shadow wow fadeInLeft"></a>
                     </div>
 
-                    <div class="col-md-6 col-12 text-start">
+                    <div class="col-md-6 col-12 text-start wow fadeInRight">
                         <h3>Weather app</h3>
                         <hr>
                         <p>Aplikacija koja pruža pregled trenutne temperature, osjeta, vremenskih prilika i vjetra za
@@ -157,7 +159,7 @@
     </div>
 
     <div class="kontakt" id="kontakt">
-        <div class="container text-center py-5">
+        <div class="container text-center py-5 wow fadeInUp">
             <h1 class="display-6 my-other-font pb-4">Kontaktiraj me!</h1>
             <i class="fa-solid fa-mobile"></i>
             <a href="tel: +385992050377" class="tel"><p class="pb-3">099/205-0377</p></a>
@@ -181,8 +183,6 @@
         ScrollReveal().reveal('.weatherapp');
         ScrollReveal().reveal('.kontakt');
 
-
-
         window.onscroll = function () {
             scrollFunction()
         };
@@ -194,6 +194,8 @@
                 document.querySelector(".navbar").style.backgroundColor = "transparent";
             }
         }
+
+        new WOW().init();
     </script>
 </body>
 
