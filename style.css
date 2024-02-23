@@ -77,12 +77,13 @@ a.nav-link:hover {
 }
 
 .cybershop,
-.todolist {
-    background-color: rgb(219, 236, 219);
+.todolist, .catcafe {
+    background-color: rgb(247, 252, 244);
 }
 
-.interiart, .weatherapp {
-    background-color: rgb(246, 250, 244);
+.interiart, .weatherapp, .oblutak {
+    background-color: rgb(239, 239, 239);
+
 }
 
 .kontakt {
