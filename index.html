@@ -8,73 +8,193 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <link href="style.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="display-3 text-center my-3">Portfolio</h1>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link my-other-font" href="#pocetak">Početak</a></li>
+                    <li class="nav-item"><a class="nav-link my-other-font" href="#omeni">O meni</a></li>
+                    <li class="nav-item"><a class="nav-link my-other-font" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link my-other-font" href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <hr class="divider mb-5">
-
-        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
-            <div class="col">
-                <div class="card shadow">
-                    <a href="interiart/index.html" target="_blank"><img src="images/interiart.jpg"
-                            class="card-img-top border-bottom border-secondary-subtle" alt="InteriArt">
-                        <div class="card-body">
-                            <h4 class="card-title text-center fw-bolder">InteriArt - Interior Design Site</h4>
-                            <p class="card-text text-center"><i>HTML, CSS, JavaScript</i></p>
-                    </a>
+    <div class="background" id="pocetak">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-10 mt-5 pt-5">
+                    <h1 class="text-light display-1 my-font">Dobrodošli u moj portfolio!</h1>
                 </div>
             </div>
         </div>
-        <div class="col mb-3">
-            <div class="card shadow">
-                <a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank">
-                    <img src="images/webstore.jpg" class="card-img-top border-bottom border-secondary-subtle"
-                        alt="CyberShop">
-                    <div class="card-body">
-                        <h4 class="card-title text-center fw-bolder">CyberShop - Electronics Webstore</h4>
-                        <p class="card-text text-center"><i>HTML, CSS, JavaScript</i></p>
-                </a>
-                </a>
+    </div>
+
+    <div class="about" id="omeni">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 col-12 d-flex pe-4">
+                    <img src="images/femalehiker.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 col-12 ps-4 pt-3 align-self-center">
+                    <p class="h2 my-other-font">Anamaria Živković</p>
+                    <p class="h3 my-font">Full stack developer in training</p>
+                    <p class="h4 my-font"><b>Naučene vještine:</b></p>
+                    <ul class="h5 my-font">
+                        <li> HTML</li> 
+                        <li> CSS</li> 
+                        <li> Bootstrap</li> 
+                        <li> JavaScript</li> 
+                        <li> jQuery</li>
+                    </ul>
+                    <p class="h4 my-font"><b>Datum rođenja:</b> 27/06/1993</p>
+                    <p class="h4 my-font"><b>Mjesto stanovanja:</b> Šibenik, Hrvatska</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col">
-        <div class="card shadow">
-            <a href="todolist/index.html" target="_blank"><img src="images/todolist.jpg"
-                    class="card-img-top border-bottom border-secondary-subtle" alt="To-do list">
-                <div class="card-body">
-                    <h4 class="card-title text-center fw-bolder">Moja to-do lista</h4>
-                    <p class="card-text text-center"><i>HTML, CSS, JavaScript</i></p>
-            </a>
+
+    <div class="portfolio mt-5" id="portfolio">
+        <h1 class="display-5 my-other-font text-center">Moji projekti</h1>
+        <hr>
+        <div class="cybershop py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-end">
+                        <h3>CyberShop - Electronics Webstore</h3>
+                        <hr>
+                        <p>Primjer webshopa usmjerenog na prodaju stolnih računala, laptopa,
+                            mobitela, konzola i druge elektronske opreme. Uključuje i funkcionalnu košaricu.</p>
+                        <p><i>HTML, CSS, JavaScript</i></p>
+
+                        <p><a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank">Pregledaj
+                                stranicu!</a></p>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank"><img
+                                src="images/webstore.jpg" class="img-fluid shadow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="interiart py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <a href="interiart/index.html" target="_blank"><img src="images/interiart.jpg"
+                                class="img-fluid shadow"></a>
+                    </div>
+
+                    <div class="col-md-6 col-12 text-start">
+                        <h3>InteriArt - Interior Design Website</h3>
+                        <hr>
+                        <p>Internetska stranica posvećena izmišljenoj tvrtci za dizajn interijera. Fokus je na estetici,
+                            a uključuje sekcije o tvrtci, uslugama koje pružaju i kontakt formu.</p>
+                        <p><i>HTML, CSS, JavaScript</i></p>
+
+                        <p><a href="interiart/index.html" target="_blank">Pregledaj stranicu!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="todolist py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-end">
+                        <h3>Moja to-do lista</h3>
+                        <hr>
+                        <p>To-do lista u koju se mogu slobodno unositi i brisati stavke. Stavke ostaju zapamćene i na
+                            reload stranice.</p>
+                        <p><i>HTML, CSS, JavaScript</i></p>
+
+                        <p><a href="todolist/index.html" target="_blank">Pregledaj stranicu!</a></p>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <a href="todolist/index.html" target="_blank"><img src="images/todolist.jpg"
+                        class="img-fluid shadow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weatherapp py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <a href="weatherapp/index.html" target="_blank"><img src="images/weatherapp.jpg"
+                        class="img-fluid shadow"></a>
+                    </div>
+
+                    <div class="col-md-6 col-12 text-start">
+                        <h3>Weather app</h3>
+                        <hr>
+                        <p>Aplikacija koja pruža pregled trenutne temperature, osjeta, vremenskih prilika i vjetra za
+                            bilo koji grad koji unesete. Postoji i mogućnost spremanja omiljenih lokacija.</p>
+                        <p><i>HTML, CSS, JavaScript</i></p>
+
+                        <p><a href="weatherapp/index.html" target="_blank">Pregledaj stranicu!</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
-    <div class="col mb-5">
-        <div class="card shadow">
-            <a href="weatherapp/index.html" target="_blank">
-                <img src="images/weatherapp.jpg" class="card-img-top border-bottom border-secondary-subtle"
-                    alt="Weather app">
-                <div class="card-body">
-                    <h4 class="card-title text-center fw-bolder">Weather App</h4>
-                    <p class="card-text text-center"><i>HTML, CSS, JavaScript</i></p>
-            </a>
-            </a>
+
+    <div class="kontakt" id="kontakt">
+        <div class="container text-center py-5">
+            <h1 class="display-6 my-other-font pb-4">Kontaktiraj me!</h1>
+            <i class="fa-solid fa-mobile"></i>
+            <a href="tel: +385992050377" class="tel"><p class="pb-3">099/205-0377</p></a>
+
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto: anamaria.zivkovic@gmail.com" class="mail"><p class="pb-5">anamaria.zivkovic@gmail.com</p></a>
         </div>
     </div>
-    </div>
-    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script>
+        ScrollReveal().reveal('.about');
+        ScrollReveal().reveal('.portfolio');
+        ScrollReveal().reveal('.cybershop');
+        ScrollReveal().reveal('.interiart');
+        ScrollReveal().reveal('.todolist');
+        ScrollReveal().reveal('.weatherapp');
+        ScrollReveal().reveal('.kontakt');
+
+
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                document.querySelector(".navbar").style.backgroundColor = "#809d86";
+            } else {
+                document.querySelector(".navbar").style.backgroundColor = "transparent";
+            }
+        }
+    </script>
 </body>
 
 </html>

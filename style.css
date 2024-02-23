@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 @font-face {
     font-family: 'canela';
     src: url(fonts/CanelaText-Regular-Trial.otf);
@@ -8,44 +11,105 @@
     src: url(fonts/MuseoSans_500.otf);
 }
 
-body {
-    margin: 0 0;
+.my-font {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.my-other-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.background {
+    background-image: url(images/bgimage.jpg);
     height: 100vh;
-    background-color: #eee4d5;
-    color: #5e4a3c;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-h1 {
-    font-family: 'canela';
+ul.navbar-nav {
+    font-size: 1.5rem;
 }
 
-.row {
+a.nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.5s all ease;
+}
+
+a.nav-link:hover {
+    color: rgb(35, 63, 34);
+}
+
+.background {
+    padding-top: 13rem;
+}
+
+.about {
+    background-color: #d9e6dc;
     font-family: 'museo';
 }
 
-hr.divider {
-    border: 1px solid #2e241d;
+.about ul {
+    list-style-type: none;
 }
 
-img {
-    opacity: 1;
+.about ul li:before {
+    content: '✓';
+}
+
+.portfolio img {
     transition: 0.5s all ease-in-out;
 }
 
-img:hover {
+.portfolio img:hover {
     filter: brightness(80%);
 }
 
-a {
-    color: #5e4a3c;
+.portfolio a {
+    color: darkgreen;
+}
+
+.portfolio a:hover {
+    color: rgb(146, 198, 146);
+}
+
+.portfolio h3 {
+    color: darkgreen;
+}
+
+.cybershop,
+.todolist {
+    background-color: rgb(219, 236, 219);
+}
+
+.interiart, .weatherapp {
+    background-color: rgb(247, 247, 247);
+}
+
+.kontakt {
+    background-color: #d9e6dc;
+}
+
+.fa-solid {
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+
+.kontakt a {
+    color: black;
     text-decoration: none;
     transition: 0.5s all ease;
 }
 
-.card:hover a {
-    color: #b47344;
+.kontakt a:hover {
+    color: rgb(79, 198, 79);
 }
 
-.card-body {
-    background-color: #fafafa;
-} 
+@media screen and (max-width:700px) {
+    .background {
+        background-image: url(images/bgimage2.jpg);
+    }
+
+    .text-end, .text-start {
+        order: 2;
+    }
+}
