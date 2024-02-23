@@ -76,8 +76,7 @@ a.nav-link:hover {
     color: darkgreen;
 }
 
-.cybershop,
-.todolist, .catcafe {
+.cybershop, .todolist, .catcafe {
     background-color: rgb(247, 252, 244);
 }
 
