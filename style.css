@@ -112,4 +112,8 @@ a.nav-link:hover {
     .text-end, .text-start {
         order: 2;
     }
+
+    .portfolio img {
+        margin-bottom: 1.5rem;
+    }
 }
