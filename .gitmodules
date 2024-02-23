@@ -13,3 +13,6 @@
 [submodule "zada-a-2-11-12-2023-azivkov"]
 	path = zada-a-2-11-12-2023-azivkov
 	url = https://github.com/azivkov/zada-a-2-11-12-2023-azivkov.git
+[submodule "oblutak-web-stranica-19-02-2024-azivkov"]
+	path = oblutak-web-stranica-19-02-2024-azivkov
+	url = https://github.com/azivkov/oblutak-web-stranica-19-02-2024-azivkov.git
