@@ -34,10 +34,10 @@ function fetchCroatian() {
         todoTitle.innerHTML = "Moja to-do lista";
         oblutakTrans.innerHTML = "Stranica o prodaji ukrasnih oblutaka, izrađena uz pomoć Bootstrapa.";
         oblutakTitle.innerHTML = "Ukrasni oblutak";
-        interiLink.innerHTML = "Visit website!";
-        cyberLink.innerHTML = "Visit website!";
-        weatherLink.innerHTML = "Visit website!";
-        todoLink.innerHTML = "Visit website!";
-        oblutakLink.innerHTML = "Visit website!";
+        interiLink.innerHTML = "Posjeti stranicu!";
+        cyberLink.innerHTML = "Posjeti stranicu!";
+        weatherLink.innerHTML = "Posjeti stranicu!";
+        todoLink.innerHTML = "Posjeti stranicu!";
+        oblutakLink.innerHTML = "Posjeti stranicu!";
         infoTrans.innerHTML = "Kontaktiraj me!";
     }
