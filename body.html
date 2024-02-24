@@ -1,0 +1,172 @@
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                <div class="w-100 d-flex justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="hrlang" onclick="fetchCroatian()"><a class="nav-link"><img src="images/hr.png"></a></li>
+                        <li class="nav-item" id="enlang" onclick="fetchEnglish()"><a class="nav-link"><img src="images/gb.png"></a></li>
+                        <li class="nav-item" id="enlang" onclick="fetchGerman()"><a class="nav-link"><img src="images/de.png"></a></li>
+
+                    </ul>
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link my-other-font" href="#top" id="toptrns"></a></li>
+                        <li class="nav-item"><a class="nav-link my-other-font" href="#about" id="abouttrns"></a></li>
+                        <li class="nav-item"><a class="nav-link my-other-font" href="#portfolio" id="porttrns"></a></li>
+                        <li class="nav-item"><a class="nav-link my-other-font" href="#contact" id="contacttrns"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="background" id="top">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-10 mt-5 pt-5">
+                <h1 class="text-light display-1 my-font" id="covertrns"></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about" id="about">
+    <div class="container py-5">
+        <div class="row wow fadeInUp">
+            <div class="col-md-6 col-12 d-flex pe-4">
+                <img src="images/femalehiker.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 col-12 ps-4 pt-3 align-self-center" id="introtrns">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio mt-5" id="portfolio">
+    <h1 class="display-5 my-other-font text-center" id="projecttrns"></h1>
+    <hr>
+
+    <div class="interiart py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-end wow fadeInLeft">
+                    <h3>InteriArt - Interior Design Website</h3>
+                    <hr>
+                    <p id="interiarttrns"></p>
+                    <p><i>HTML, CSS, JavaScript</i></p>
+
+                    <p><a href="interiart/index.html" target="_blank" id="interilink"></a></p>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <a href="interiart/index.html" target="_blank"><img src="images/interiart.jpg"
+                            class="img-fluid shadow wow fadeInRight"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cybershop py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank"><img
+                            src="images/webstore.jpg" class="img-fluid shadow wow fadeInLeft"></a>
+                </div>
+
+                <div class="col-md-6 col-12 text-start wow fadeInRight">
+                    <h3>CyberShop - Electronics Webstore</h3>
+                    <hr>
+                    <p id="cybershoptrns"></p>
+                    <p><i>HTML, CSS, JavaScript</i></p>
+
+                    <p><a href="izrada-web-stranice-web-shop-azivkov/index.html" target="_blank" id="cyberlink"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="weatherapp py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-end wow fadeInLeft">
+                    <h3>Weather app</h3>
+                    <hr>
+                    <p id="weathertrns"></p>
+                    <p><i>HTML, CSS, JavaScript</i></p>
+
+                    <p><a href="weatherapp/index.html" target="_blank" id="weatherlink"></a></p>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <a href="weatherapp/index.html" target="_blank"><img src="images/weatherapp.jpg"
+                            class="img-fluid shadow wow fadeInRight"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="todolist py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <a href="todolist/index.html" target="_blank"><img src="images/todolist.jpg"
+                            class="img-fluid shadow wow fadeInLeft"></a>
+                </div>
+
+                <div class="col-md-6 col-12 text-start wow fadeInRight">
+                    <h3 id="todonaslov"></h3>
+                    <hr>
+                    <p id="todotrns"></p>
+                    <p><i>HTML, CSS, JavaScript</i></p>
+
+                    <p><a href="todolist/index.html" target="_blank" id="todolink"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oblutak py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-end wow fadeInLeft">
+                    <h3 id="oblutaknaslov"></h3>
+                    <hr>
+                    <p id="oblutaktrns"></p>
+                    <p><i>HTML, CSS, Bootstrap, JavaScript</i></p>
+
+                    <p><a href="oblutak-web-stranica-19-02-2024-azivkov/zadaca/index.html" target="_blank"
+                            id="oblutaklink"></a></p>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <a href="oblutak-web-stranica-19-02-2024-azivkov/zadaca/index.html" target="_blank"><img
+                            src="images/oblutak.jpg" class="img-fluid shadow wow fadeInRight"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="kontakt" id="contact">
+    <div class="container text-center py-5 wow fadeInUp">
+        <h1 class="display-6 my-other-font pb-4" id="infotrns"></h1>
+        <i class="fa-solid fa-mobile"></i>
+        <a href="tel: +385992050377" class="tel">
+            <p class="pb-3">099/205-0377</p>
+        </a>
+
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto: anamaria.zivkovic@gmail.com" class="mail">
+            <p class="pb-5">anamaria.zivkovic@gmail.com</p>
+        </a>
+    </div>
+</div>
