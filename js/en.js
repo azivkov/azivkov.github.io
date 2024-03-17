@@ -25,7 +25,7 @@
     portfolioTrans.innerHTML = "Portfolio";
     contactTrans.innerHTML = "Contact";
     coverTrans.innerHTML = "Welcome to my portfolio!";
-    introTrans.innerHTML = '<p class="h2 my-other-font"><b>Anamaria Živković</b>, <span class="h3 my-other-font">mag. psych.</span></p><p class="h3 my-font">Full stack developer in training</p><p class="h4 my-font"><b>Skills:</b></p><ul class="h5 my-font"><li> HTML</li> <li> CSS</li> <li> Bootstrap</li> <li> JavaScript</li> <li> jQuery</li></ul><p class="h4 my-font"><b>Date of birth:</b> 27/06/1993</p><p class="h4 my-font"><b>Place of residence:</b> Šibenik, Croatia</p>';
+    introTrans.innerHTML = '<p class="h2 my-other-font"><b>Anamaria Živković</b>, <span class="h3 my-other-font">mag. psych.</span></p><p class="h3 my-font">Full stack developer in training</p><p class="h4 my-font"><b>Skills:</b></p><ul class="h5 my-font"><li> HTML</li> <li> CSS</li> <li> Bootstrap</li> <li> JavaScript</li> <li> jQuery</li> <li>React</li> </ul><p class="h4 my-font"><b>Date of birth:</b> 27/06/1993</p><p class="h4 my-font"><b>Place of residence:</b> Šibenik, Croatia</p>';
     projectTrans.innerHTML = "My projects";
     interiartTrans.innerHTML = "A mock webpage for a made up company dedicated to interior design. The focus is on aesthetics, and the page includes sections about the company, their services and a contact form."
     cybershopTrans.innerHTML = "A mock webstore for that sells personal computers, mobile phones, consoles and other electronic equipment. Incldues a functional cart where you can add or remove products."
