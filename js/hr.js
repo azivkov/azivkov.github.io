@@ -19,13 +19,15 @@ function fetchCroatian() {
         var oblutakTitle = document.getElementById("oblutaknaslov");
         var oblutakLink = document.getElementById("oblutaklink");
         var infoTrans = document.getElementById("infotrns");
+        var cryptoTrans = document.getElementById("cryptospheretrns");
+        var cryptoLink = document.getElementById("cryptolink")
     
         topTrans.innerHTML = "Početak";
         aboutTrans.innerHTML = "O meni";
         portfolioTrans.innerHTML = "Portfolio";
         contactTrans.innerHTML = "Kontakt";
         coverTrans.innerHTML = "Dobrodošli u moj portfolio!";
-        introTrans.innerHTML = '<p class="h2 my-other-font"><b>Anamaria Živković</b>, <span class="h3 my-other-font">mag. psych.</span></p><p class="h3 my-font">Full stack developer in training</p><p class="h4 my-font"><b>Naučene vještine:</b></p><ul class="h5 my-font"><li> HTML</li> <li> CSS</li> <li> Bootstrap</li> <li> JavaScript</li> <li> jQuery</li> <li>React</li> </ul><p class="h4 my-font"><b>Datum rođenja:</b> 27/06/1993</p><p class="h4 my-font"><b>Mjesto stanovanja:</b> Šibenik, Hrvatska</p>';
+        introTrans.innerHTML = '<p class="h2 my-other-font"><b>Anamaria Živković</b>, <span class="h3 my-other-font">mag. psych.</span></p><p class="h3 my-font">Full stack developer in training</p><p class="h4 my-font"><b>Naučene vještine:</b></p><ul class="h5 my-font"><li> HTML</li> <li> CSS</li> <li> Bootstrap</li> <li> Tailwind</li> <li> JavaScript</li> <li>React</li> </ul><p class="h4 my-font"><b>Mjesto stanovanja:</b> Šibenik, Hrvatska</p>';
         projectTrans.innerHTML = "Moji projekti";
         interiartTrans.innerHTML = "Internetska stranica posvećena izmišljenoj tvrtci za dizajn interijera. Fokus je na estetici, a uključuje sekcije o tvrtci, uslugama koje pruža i kontakt formu.";
         cybershopTrans.innerHTML = "Primjer webshopa usmjerenog na prodaju stolnih računala, laptopa, mobitela, konzola i druge elektronske opreme, izrađeno uz pomoć Reacta. Uključuje i funkcionalnu košaricu.";
@@ -40,4 +42,6 @@ function fetchCroatian() {
         todoLink.innerHTML = "Posjeti stranicu!";
         oblutakLink.innerHTML = "Posjeti stranicu!";
         infoTrans.innerHTML = "Kontaktiraj me!";
+        cryptoTrans.innerHTML = "Primjer početne stranice izrađene uz pomoć Reacta i Tailwind CSS.";
+        cryptoLink.innerHTML = "Posjeti stranicu!";
     }
