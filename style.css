@@ -1,127 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Montserrat+Alternates&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 @font-face {
-    font-family: 'canela';
-    src: url(fonts/CanelaText-Regular-Trial.otf);
+  font-family: "canela";
+  src: url(fonts/CanelaText-Regular-Trial.otf);
 }
 
 @font-face {
-    font-family: 'museo';
-    src: url(fonts/MuseoSans_500.otf);
+  font-family: "museo";
+  src: url(fonts/MuseoSans_500.otf);
 }
 
 .my-font {
-    font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .my-other-font {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
-#hrlang, #enlang {
-    cursor: pointer;
+#hrlang,
+#enlang {
+  cursor: pointer;
 }
 
 .background {
-    background-image: url(images/bgimage.jpg);
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(images/bgimage.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 ul.navbar-nav {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 a.nav-link {
-    color: rgb(255, 255, 255);
-    transition: 0.5s all ease;
+  color: rgb(255, 255, 255);
+  transition: 0.5s all ease;
 }
 
 a.nav-link:hover {
-    color: rgb(35, 63, 34);
+  color: rgb(35, 63, 34);
 }
 
 .background {
-    padding-top: 13rem;
+  padding-top: 13rem;
 }
 
 .about {
-    background-color: #d9e6dc;
-    font-family: 'museo';
+  background-color: #d9e6dc;
+  font-family: "museo";
 }
 
 .about ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .about ul li:before {
-    content: '✓';
+  content: "✓";
 }
 
 .portfolio img {
-    transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .portfolio img:hover {
-    filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 .portfolio a {
-    color: darkgreen;
+  color: darkgreen;
 }
 
 .portfolio a:hover {
-    color: rgb(146, 198, 146);
+  color: rgb(146, 198, 146);
 }
 
 .portfolio h3 {
-    color: darkgreen;
+  color: darkgreen;
 }
 
-.cybershop, .todolist, .crypto {
-    background-color: #E9F3E3;
+.cybershop,
+.todolist,
+.crypto,
+.dnevnica {
+  background-color: #e9f3e3;
 }
 
-.interiart, .weatherapp, .oblutak {
-    background-color: #F8F8F8;
+.interiart,
+.weatherapp,
+.oblutak {
+  background-color: #f8f8f8;
 }
 
 .kontakt {
-    background-color: #d9e6dc;
+  background-color: #d9e6dc;
 }
 
 .fa-solid {
-    font-size: 1.5rem;
-    color: darkgreen;
+  font-size: 1.5rem;
+  color: darkgreen;
 }
 
 .kontakt a {
-    color: black;
-    text-decoration: none;
-    transition: 0.5s all ease;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s all ease;
 }
 
 .kontakt a:hover {
-    color: rgb(79, 198, 79);
+  color: rgb(79, 198, 79);
 }
 
-@media screen and (max-width:700px) {
-    .background {
-        background-image: url(images/bgimage3.jpg);
-        background-position: 50%;
-    }
+@media screen and (max-width: 700px) {
+  .background {
+    background-image: url(images/bgimage3.jpg);
+    background-position: 50%;
+  }
 
-    .text-end, .text-start {
-        order: 2;
-    }
+  .text-end,
+  .text-start {
+    order: 2;
+  }
 
-    .portfolio img {
-        margin-bottom: 1.5rem;
-    }
+  .portfolio img {
+    margin-bottom: 1.5rem;
+  }
 
-    #covertrns {
-        margin-top: 3rem;
-    }
+  #covertrns {
+    margin-top: 3rem;
+  }
 }
